@@ -1,0 +1,3 @@
+[submodule "snewpy"]
+	path = snewpy
+	url = git@github.com:SNEWS2/snewpy.git
