@@ -3,7 +3,7 @@
 This is an analysis framework to obtain neutrino light curves for various CCSN models using the [SNEWPY](https://github.com/SNEWS2/snewpy) software.
 Here, we use a simple rate calculation which assumes a perfect detector so the codes in this folder can be used out of the box and installing SNoWGLoBES and GLoBES is not necessary. The `snowglobes` folder contains only the detector, channel and cross-section information needed to compute the rates.
 
-To compute the neutrino interaction rates associated with a given CCSN model in all the SNEWPY-available media (notably water and liquid argon), just run
+The codes require at least Python 3.7 to run. To compute the neutrino interaction rates associated with a given CCSN model in all the SNEWPY-available media (notably water and liquid argon), just run
 
         python get_CCSN_rates.py
         
