@@ -26,7 +26,7 @@ $sampling_max = 	0.100     /* GeV */
 /* ########  Flux data ######## */
 
 nuflux(#supernova_flux)<
-	@flux_file=   "/scratch/users/s/selhedri/snowglobesaiw116fy/nakazato-LS220-BH-z0.004-s30.0.tbin21.AdiabaticMSW_NMO.-0.110,0.342,30-10.0kpc.dat"
+	@flux_file=   "/scratch/users/s/selhedri/snowglobes8mtc2cym/s27.tbin485.NoTransformation.0.011,0.552,541-10.0kpc.dat"
 	@time =       1                  /* 1 file unit (1 supernova)*/
 	@power =      1                    
 	@norm =       0.0677
@@ -47,21 +47,21 @@ $target_mass=       11.110000000000001
 
  /******** Cross-sections *********/
  
-cross(#ibd)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_ibd.dat" >
-cross(#nue_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nue_e.dat" >
-cross(#nuebar_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nuebar_e.dat" >
-cross(#numu_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_numu_e.dat" >
-cross(#numubar_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_numubar_e.dat" >
-cross(#nutau_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nutau_e.dat" >
-cross(#nutaubar_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nutaubar_e.dat" >
-cross(#nue_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nue_O16.dat" >
-cross(#nuebar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nuebar_O16.dat" >
-cross(#nc_nue_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nc_nue_O16.dat" >
-cross(#nc_nuebar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nc_nuebar_O16.dat" >
-cross(#nc_numu_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nc_numu_O16.dat" >
-cross(#nc_numubar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nc_numubar_O16.dat" >
-cross(#nc_nutau_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nc_nutau_O16.dat" >
-cross(#nc_nutaubar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/scripts/../snowglobes/xscns/xs_nc_nutaubar_O16.dat" >
+cross(#ibd)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_ibd.dat" >
+cross(#nue_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nue_e.dat" >
+cross(#nuebar_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nuebar_e.dat" >
+cross(#numu_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_numu_e.dat" >
+cross(#numubar_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_numubar_e.dat" >
+cross(#nutau_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nutau_e.dat" >
+cross(#nutaubar_e)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nutaubar_e.dat" >
+cross(#nue_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nue_O16.dat" >
+cross(#nuebar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nuebar_O16.dat" >
+cross(#nc_nue_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nc_nue_O16.dat" >
+cross(#nc_nuebar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nc_nuebar_O16.dat" >
+cross(#nc_numu_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nc_numu_O16.dat" >
+cross(#nc_numubar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nc_numubar_O16.dat" >
+cross(#nc_nutau_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nc_nutau_O16.dat" >
+cross(#nc_nutaubar_O16)< @cross_file= "/sps/km3net/users/selhedri/ccsn_analysis/signal_models/snowglobes/xscns/xs_nc_nutaubar_O16.dat" >
 
 
  /******** Channels *********/
